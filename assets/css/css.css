@@ -1,0 +1,108 @@
+figure{
+    float: left;
+}
+figcaption{
+    font-weight: bold;
+    font-size: 15px;
+}
+fig{
+    float: none;
+}
+img{
+    max-height: 150px;
+    max-width: 150px;
+    background-size: contain;
+}
+div{
+    display: block;
+    padding: 10px;
+    margin-bottom: 100px;
+    text-align: justify;
+}
+body{
+    background-color: blanchedalmond;
+    font-size: 15px;
+    font-family: arial;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 22px;
+}
+.hangingindent{
+    padding-left: 22px;
+    text-indent: -22px;
+}
+h2{
+    font-size: 18px;
+}
+li{
+    padding-bottom: 8px;
+}
+    
+
+@media screen and (min-width: 900px) {
+    img{
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    img{
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    wimg{
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 320px) {
+    img{
+        max-width: 100%;
+    }
+}
+
+
+#navlist{
+    padding: 3px 0;
+    margin-left: 0;
+    border-bottom: 1px solid black;
+    font: bold 12px Verdana, sans-serif;
+}
+
+#navlist li{
+list-style: none;
+margin: 0;
+display: inline;
+}
+
+#navlist li a{
+    padding: 3px 0.5em;
+    margin-left: 3px;
+    border: 1px solid black;
+    border-bottom: none;
+    background: #fef3ed;
+    text-decoration: none;
+}
+
+#navlist li a:link{ 
+    color: red; 
+}
+#navlist li a:visited{
+    color: darkred;
+}
+
+#navlist li a:hover{
+    color: orange;
+    background: white;
+    border-color: black;
+    text-decoration: underline; 
+}
+
+#navlist li a#current{
+    background: white;
+    border-bottom: 1px solid white;
+}
